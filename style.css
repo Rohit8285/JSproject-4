@@ -58,91 +58,58 @@ button[disabled]{
     opacity: .5;
     cursor: default;
 }
-@media screen and (max-width:820px){
-    #timer{
-        font-size: 5rem;
-        width: 350px;
-        text-align: center;
-    }
-    button{
-        font-size: 2rem;
-        padding: 2rem 4rem;
-        margin: 0 1rem;
-    }
-    h1{
-        font-size: 7rem;
-    }
-}
-@media screen and (max-width:414px){
+@media  screen and (max-width:600px) {
     body{
         overflow: hidden;
     }
+    h1{
+        font-size: 4rem;
+        overflow: hidden;
+        text-align: center;
+    }
     #timer{
+        font-size: 2.9rem;
+        width: 250px;
+        overflow: hidden;
+        text-align: center;
+    }
+    button{
+        font-size: 20px;
+        max-width: 250px;
+        padding: 20px 30px;
+        margin: 10px 5px;
+        overflow: hidden;
+    }
+    #stop{
+        margin-right: 15px;
+        margin-left: 14px;
+    }
+ }
+ @media screen and (width:280px) {
+    button{
+        font-size:15px;
+        max-width: 250px;
+        padding: 20px;
+        margin: 5px 3px;
+    }
+    #timer{
+        font-size: 2.7rem;
+        margin-bottom: 30px;
+    }
+    h1{
         font-size: 3.5rem;
-        width: 275px;
-        text-align: center;
+        text-shadow: 3px 2px #ff99b0;
     }
+ }
+
+ @media screen and (min-width:820px) {
     button{
-        font-size: 1rem;
-        padding: 20px 1.9rem;
-        margin-left: 10px;
-        margin-right: 10px;
-        
+        font-size: 35px;
+        padding:30px 70px;
+        border-right: 50%;
     }
     h1{
-        font-size: 100px;
+        font-size: 10rem;
     }
-}
-@media screen and (max-width:375px){
-    body{
-        overflow: hidden;
-    }
-    #timer{
-        font-size: 2.5rem;
-        width: 275px;
-        text-align: center;
-    }
-    button{
-        font-size: 1rem;
-        padding: 10px 1.9rem;
-        margin:10px;
-    }
-    h1{
-        font-size: 100px;
-    }
-}
-@media screen and (width:540px){
-    body{
-        overflow: hidden;
-    }
-    #timer{
-        font-size: 2.5rem;
-        width: 275px;
-        text-align: center;
-    }
-    button{
-        font-size: 1rem;
-        padding: 20px 2rem;
-    }
-    h1{
-        font-size: 100px;
-    }
-}
-@media screen and (width:280px){
-    body{
-        overflow: hidden;
-    }
-    #timer{
-        font-size: 2.5rem;
-        width: 275px;
-        text-align: center;
-    }
-    button{
-        font-size:14px;
-        padding: 20px 20px;
-    }
-    h1{
-        font-size: 70px;
-    }
-}
+ }
 
